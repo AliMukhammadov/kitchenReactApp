@@ -1,0 +1,45 @@
+:root {
+  --main-color: #555;
+  --light-color: #fff;
+}
+
+.create {
+  color: var(--main-color);
+  max-width: 480px;
+  margin: 60px auto;
+}
+.create label span {
+  display: block;
+  margin: 30px 0 10px;
+}
+.create p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+.create button {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  color: var(--light-color);
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #58249c;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px auto;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+.ingredients {
+  display: flex;
+  align-items: center;
+}
+.ingredients button {
+  width: 100px;
+  margin: 0 0 0 10px;
+}
